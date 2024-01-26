@@ -1,0 +1,8 @@
+tasks:
+  - init: >
+      npm i
+    command:
+      npx elm-pages dev
+ports:
+  - port: 1234
+    onOpen: open-preview
