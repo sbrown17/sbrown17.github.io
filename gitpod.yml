@@ -1,0 +1,8 @@
+tasks:
+  - init: >
+      gem install
+    command:
+      bundle exec jekyll serve
+ports:
+  - port: 1234
+    onOpen: open-preview
