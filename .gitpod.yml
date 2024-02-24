@@ -1,6 +1,6 @@
 tasks:
   - init: >
-      gem install
+      bundle install
     command:
       bundle exec jekyll serve
 ports:
