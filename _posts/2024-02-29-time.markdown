@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Time"
+date:   2024-02-29 21:13:00 +0000
+categories: blog random time goals
+---
+
+I'm a father of two kids now. My eldest will be three this year, just before her little brother turns one. They say that having children will change your perspective on the world and while that's absolutely right, they change your time as well. Just not in the ways I’d imagined.
+
+When I was in my twenties I had plenty of gaming nights, up late with friends into the early hours of the morning, until our virtual adventure diminished to the point that sleep looked like a better goal than the next in-game objective. I had the time and ability to pull an all-nighter on Friday, recoup my losses by sleeping until 10am and using the rest of the next day to study.
+
+Now when my oldest isn’t feeling good my wife and I have her stay up with us. Usually, until we’re tired enough from parenting that we all just fall asleep at 10PM. On a good day, the kids are both asleep by 8PM and I get maybe 2 hours of semi interrupted time to work, game, write blogs, etc. My free time has waned from 6 hours a day to ~1.5. Yet, somehow, I am making nearly as much weekly progress on my goals as I did ten years ago.
+
+Why? My time has shrunk, but my perspective has widened. By constricting the amount of time I have to get a task done I no longer have the ability to dilly-dally or sit fretting about what to do first. I just have to grab what I think is the best thing to work on and get to it. Ironically, I feel that I regret some of the time I spent in my twenties and before, but none of that matters now. What matters is taking an inventory on what things I want to do, and how I should do them.
+
+With this limited time I’ve learned that I need to start by honing down what I really want to do. How can I best maximize the tiny pie slice on the clock I’m given each night? I want the thing I’m working towards to be effective. And how do I do that? I have to be _ruthless._ To my wants, my whims, some of which feel like needs at the time. I have to have a big overarching goal to move towards, or a couple. This goal can’t just bring me joy, it has to make sense logically. I have to look forward to it, but I also have to know that when it’s complete I can stand by it and be proud of it. It has to be _ambitious._
+
+So often I find myself chasing a spiral to the bottom of simplicity. I like archery, so I have a compound bow. It was too high tech, so I bought a recurve bow. That was a lot of fun, but it was still too modern, so I bought a red oak board with the intention of making a bow. I marked it all out, started building a tillering tree, got the tools to carve away at it by hand (because why would I want to use electricity to build something they could make 10,000 years ago with a sharp stone and some sinew?). By the time I was ready to make the bow my brain was compulsively pulling me to do a different task, honing that one down to the basics.
+
+What’s my lesson with that weird tangent? Those things were superfluous. They were fun, but they were distractions. I wasn’t chasing a goal, I was just complicating my life by trying to do things in a simple fashion. Ultimately, I abandoned these self-made chores because they were useless to me. I don’t like building bows, I like loosing arrows as the focus required brings me to a meditative state. I just thought I liked building them because it kept me doing busy work that never moved the needle forward for myself. I was able to complicate my goals and feel like I was making progress.
+
+So I’m choosing to move the needle forward. I’m choosing something that I enjoy; something that I see being very helpful in the future, both personally and for society. I no longer have the luxury of gaming for hours on end, or chasing my wanton thoughts of building bows by hand. I am focusing on moving myself, my career and hopefully society forward. I still can sneak in listening to podcasts and some reading throughout the day, but my main chunk of time I get will be mostly dedicated to Artificial Intelligence.
+
+I have a small project currently being worked on trying to implement miniscule neural nets in 2 dimensional creatures at the moment, but I’ll probably pause that as I go full force on learning how to use pytorch for building neural nets, LLMs, etc. If you’re learning too, or just want to discuss something with me, feel free to reach out to me. You can find my contact info in the footer.
