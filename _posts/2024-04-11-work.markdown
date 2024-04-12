@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Work"
+date:   2024-04-11 21:52:00 +0000
+categories: blog random work goals
+---
+
+Well, that last project I started up didn't take long before I put it on hold. For good reason too. I'm a busy person, as alluded to in the previous post about time. I have kids, work, chores, a wife. At best I have 2 hours a day to work on something, so (like mentioned last time) it needs to be worth my time. I really like neural nets, but I think my time will be most effectively spent learning web development even more, in languages that I like.
+
+Lately that means I've been learning Go with a project. Hopefully I'll be able to share it soon. I have high hopes for it to be a nice breeding ground for discussion on important topics since discussion is one of my most favorite things. Sometimes I, without a better turn of phrase, don't shut the hell up about some things. Info dumping, etc. It's fun and when you get me started on a subject it's probably best to set a microphone on record and comeback later to try and compile the sparknotes version of it all.
+
+Oh that and I'm going to be adding recipes to this website. Little things I picked up throughout life that I love. For example: Soft boiled Ramen eggs. Yum.
+
+Have a good day!
