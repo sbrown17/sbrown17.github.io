@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Take Two!"
+date:   2024-06-26 07:55:00 +0000
+categories: blog random
+---
+
+Well, this is interesting. I wrote an entire post yesterday, committed and pushed it to my main branch but apparently I goofed and it is now lost to oblivion. I suppose I talked a bit about how I wrote a small project in Go and enjoyed the experience and about some of my future plans from here. So that's what I'll do now...
+
+This blog? Redesign. I like the hands off approach Jekyll offers for static blogs, but I want some more control over my site. So I will be building my blog from scratch either with AstroJS or SvelteKit. Probably Astro because I've been so curious about it lately.
+
+Then, I will probably make a roguelike that can be played on here. I'm a big geek and have decided that the world doesn't have enough roguelikes with waifus (or husbandos) in them. So perhaps I will work towards that in my off time.
+
+Finally, KCDC2024 starts today and the main conferences will be tomorrow! I look forward to going there and meeting a bunch of new people and maybe some old friends. Hope to see you there, cheers!
+
+Have a good day!
