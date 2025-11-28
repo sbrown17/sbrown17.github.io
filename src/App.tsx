@@ -22,7 +22,7 @@ export function App() {
       <h1>Welcome</h1>
 
       <section style={{ marginTop: "2rem" }}>
-        <h2>Blog Posts</h2>
+        <h2>My Posts</h2>
         {posts.length > 0 ? (
           <ul style={{ textAlign: "left", maxWidth: "600px", margin: "0 auto" }}>
             {posts.map(post => (
@@ -38,7 +38,7 @@ export function App() {
         )}
       </section>
 
-      <APITester />
+      {/*<APITester />*/}
     </div>
   );
 }
