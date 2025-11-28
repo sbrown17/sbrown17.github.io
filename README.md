@@ -12,10 +12,16 @@ To start a development server:
 bun dev
 ```
 
+To build as a static site for production:
+
+```bash
+
+bun run build
+```
+
 To run for production:
 
 ```bash
 bun start
 ```
-
 This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
