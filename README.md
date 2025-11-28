@@ -28,5 +28,5 @@ This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) 
 
 
 Todo:
-[ ] - move blogs into src
-[ ] - refactor blog html into its own component file
+- [ ] move blogs into src
+- [ ] refactor blog html into its own component file
