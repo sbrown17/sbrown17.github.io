@@ -11,6 +11,8 @@ const server = serve({
       const filePath = `./blog/${slug}.md`;
 
       try {
+
+        // this needs to be refactored into its own component
         const file = Bun.file(filePath);
         const markdown = await file.text();
         const html = await marked(markdown);
