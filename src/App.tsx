@@ -13,10 +13,10 @@ export function App() {
   useEffect(() => {
     fetch("/api/blog")
       .then(r => r.json())
-      .then(data => setPosts(data.posts))
+      .then(data => setPosts(data.posts.sort((a, b) => b.slug.localeCompare(a.slug))))
       .catch(err => console.error("Failed to load blog posts:", err));
   }, []);
-
+console.log('posts', posts);
   return (
     <div className="app">
       <h1>Welcome</h1>
