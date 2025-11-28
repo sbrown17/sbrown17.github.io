@@ -14,7 +14,8 @@ const server = serve({
         const file = Bun.file(filePath);
         const markdown = await file.text();
         const html = await marked(markdown);
-
+        const titleStringWithExt = slug.slice(11);
+        const titleString = titleStringWithExt.replace('-', ' ').split('.')[0];
         // Return HTML page with the rendered markdown
         return new Response(`
           <!DOCTYPE html>
@@ -22,7 +23,7 @@ const server = serve({
             <head>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>${slug.replace(/-/g, ' ')}</title>
+              <title>${titleString}</title>
               <style>
                 body {
                   max-width: 800px;

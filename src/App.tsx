@@ -27,7 +27,7 @@ export function App() {
         <img src={reactLogo} alt="React Logo" className="logo react-logo" />
       </div>
 
-      <h1>Bun + React</h1>
+      <h1>Welcome</h1>
       <p>
         Edit <code>src/App.tsx</code> and save to test HMR
       </p>
@@ -45,7 +45,7 @@ export function App() {
             ))}
           </ul>
         ) : (
-          <p>No blog posts yet. Add some .md files to the blog/ directory!</p>
+          <p>Sorry, there is currently no content to be displayed.</p>
         )}
       </section>
 
