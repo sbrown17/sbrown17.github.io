@@ -8,7 +8,7 @@ const server = serve({
     // Serve blog posts
     "/blog/:slug": async (req) => {
       const slug = req.params.slug;
-      const filePath = `./blog/${slug}.md`;
+      const filePath = `./src/blog/${slug}.md`;
 
       try {
 
@@ -106,7 +106,7 @@ const server = serve({
     // API to list all blog posts
     "/api/blog": async () => {
       try {
-        const files = await readdir("./blog");
+        const files = await readdir("./src/blog");
         const posts = files
           .filter(f => f.endsWith(".md"))
           .map(f => ({
