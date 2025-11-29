@@ -1,6 +1,7 @@
 import { serve } from "bun";
 import { marked } from "marked";
 import { readdir } from "node:fs/promises";
+import { Posts } from "./Posts";
 import index from "./index.html";
 
 const server = serve({
@@ -8,80 +9,20 @@ const server = serve({
     // Serve blog posts
     "/blog/:slug": async (req) => {
       const slug = req.params.slug;
+      if (!slug) {
+        return new Response("Blog post not found", { status: 404 });
+      }
+
       const filePath = `./src/blog/${slug}.md`;
 
       try {
-
-        // this needs to be refactored into its own component
         const file = Bun.file(filePath);
         const markdown = await file.text();
         const html = await marked(markdown);
         const titleStringWithExt = slug.slice(11);
         const titleString = titleStringWithExt.replace('-', ' ').split('.')[0];
-        // Return HTML page with the rendered markdown
-        return new Response(`
-          <!DOCTYPE html>
-          <html>
-            <head>
-              <meta charset="UTF-8">
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>${titleString}</title>
-              <style>
-                body {
-                  max-width: 800px;
-                  margin: 0 auto;
-                  padding: 2rem;
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
-                  line-height: 1.6;
-                  color: #333;
-                }
-                a {
-                  color: #0066cc;
-                  text-decoration: none;
-                }
-                a:hover {
-                  text-decoration: underline;
-                }
-                code {
-                  background: #f4f4f4;
-                  padding: 0.2rem 0.4rem;
-                  border-radius: 3px;
-                  font-family: 'Courier New', monospace;
-                }
-                pre {
-                  background: #f4f4f4;
-                  padding: 1rem;
-                  border-radius: 5px;
-                  overflow-x: auto;
-                }
-                pre code {
-                  background: none;
-                  padding: 0;
-                }
-                blockquote {
-                  border-left: 4px solid #ddd;
-                  margin: 1rem 0;
-                  padding-left: 1rem;
-                  color: #666;
-                }
-                img {
-                  max-width: 100%;
-                  height: auto;
-                }
-              </style>
-            </head>
-            <body>
-              <nav>
-                <a href="/">← Back to home</a>
-              </nav>
-              <article class="blog-post">
-                ${html}
-              </article>
-            </body>
-          </html>
-        `, {
-          headers: { "Content-Type": "text/html" },
-        });
+
+        return Posts({ titleString, html });
       } catch (error) {
         return new Response(`
           <!DOCTYPE html>
