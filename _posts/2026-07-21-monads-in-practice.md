@@ -22,11 +22,11 @@ type alias Produce =
 
 canSellProduce : Produce -> Bool
 canSellProduce produce =
-	case produce.expirationDate of
-	    Nothing ->
-		    True
-		Just date ->
-			date > today
+    case produce.expirationDate of
+        Nothing ->
+            True
+        Just date ->
+            date > today
 ```
 
 In this code we're checking a piece of produce being passed to the canSellProduce function for a grocery store. Most things in grocery stores have an expiration date, but what about paper products? What about twinkies? Those last for all of eternity! If we wound up accidentally passing in an item without an `expirationDate` to this function in JavaScript we may have run into a classic null runtime exception!
