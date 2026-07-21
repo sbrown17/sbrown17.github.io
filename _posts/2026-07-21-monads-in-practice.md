@@ -14,7 +14,6 @@ Monads are used and enforced in a lot of languages through things like `Maybe` t
 Here's a simple example (note this is not production code, please do not use it for such things):
 
 ```Elm
-```
 type alias Produce =
   { name : String
   , expirationDate : Maybe Date
@@ -28,7 +27,6 @@ canSellProduce produce =
 			 True
 		Just date ->
 				date > today
-```
 ```
 
 In this code we're checking a piece of produce being passed to the canSellProduce function for a grocery store. Most things in grocery stores have an expiration date, but what about paper products? What about twinkies? Those last for all of eternity! If we wound up accidentally passing in an item without an `expirationDate` to this function in JavaScript we may have run into a classic null runtime exception!
